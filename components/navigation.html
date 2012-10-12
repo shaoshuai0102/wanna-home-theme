@@ -9,14 +9,11 @@
             <a class="brand" href="{{__dir__}}/index.html">Wanna</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li class="active">
+                    <li class="{{active 'index.html' path}}">
                         <a href="{{__dir__}}/index.html">Home</a>
                     </li>
-                    <li class="">
-                        <a href="{{__dir__}}/get-started.html">Get started</a>
-                    </li>
-                    <li class="">
-                        <a href="{{__dir__}}/documentation.html">Documentation</a>
+                    <li class="{{isDocumentation this}}">
+                        <a href="{{__dir__}}/pages/get-started.html">Documentation</a>
                     </li>
                     <li class="">
                         <a href="http://themes.wannajs.org">Themes</a>
